@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOKEPON</title>
+    <link rel="stylesheet" href="./css/style.css"> 
+    <!-- Enlace al archivo JavaScript -->
+    <script src="./js/mokepon.js"></script>
+</head>
+<body>
+    <header>
+        <img src="./image/logo.jpeg" class="logo" />
+    </header>
+    <h1>MOKEPON 🔥💧🌍</h1>
+    <!-- Sección para seleccionar la mascota -->
+    <section id="seleccionar-mascota">
+        <h2>Elige tu mascota</h2>
+
+        <label for="Hipodoge">Hipodoge</label>
+        <input type="radio" name="mascota" id="Hipodoge"/>
+        
+        
+        <label for="Capipepo">Capipepo</label>
+        <input type="radio" name="mascota" id="Capipepo"/>
+
+        
+        <label for="Ratigueya">Ratigueya</label>
+        <input type="radio" name="mascota" id="Ratigueya"/>
+
+        <button id="boton-mascota">Seleccionar</button>
+    </section>
+
+    <!-- Sección de ataque -->
+    <section id="seleccionar-ataque">
+        <h2>Elige tu ataque</h2>
+        <p>Tu mascota tiene <span id="mascota-jugador"></span> tiene <span
+            id="vidas-jugador">3</span> vidas</p>
+             <p>La mascota del enemigo tiene <span id="mascota-enemigo"></span> tiene
+            <span id="vidas-enemigo">3</span>vidas</p>
+        <p>
+            <button id="boton-fuego">Fuego 🔥</button>
+            <button id="boton-agua">Agua 💧</button>
+            <button id="boton-tierra">Tierra 🌍</button>
+        </p> 
+    </section>
+
+    <!-- Sección para mostrar mensajes del combate -->
+    <section id="mensajes">
+        
+    </section>
+
+    <!-- Sección para reiniciar el juego -->
+    <section id="reiniciar">
+        <button id="boton-reiniciar">Reiniciar</button>
+    </section>
+    <footer>
+        ©️ 2024-TECNM-CAMPUSPACHUCA-MOKEPON-PROGRAWEB-TANIA
+    </footer>
+
+</body>
+</html>
